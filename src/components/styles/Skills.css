@@ -1,0 +1,22 @@
+#skills > ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+
+#skills > ul > li{
+    width: 10%;
+    height: 10%;
+    padding: 5%;
+    transition: all 0.3s ease-in-out;
+    margin: auto;
+}
+
+#skills > ul > li:hover{
+    transform: scale(1.5);
+    background-color: #424242;
+    border-radius: 25%;
+    padding: 2.5%;
+}

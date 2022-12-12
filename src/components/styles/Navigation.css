@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+/*hr-top includes the logo and the Navagation bar*/
+#hr-top{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+    font-family: 'Silkscreen', cursive;
+}
+
+#hr-top > p{
+    font-size: 1.5em;
+}
+
+#Navagation{
+    text-align: center;
+    left: 50%;          /*pushes the nav to the right*/
+    position: absolute; 
+}
+
+#Navagation > ul{
+    display: inline-block;
+}
+
+ul > button{
+    font-size: 1.1em;
+}

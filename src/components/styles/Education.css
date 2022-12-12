@@ -1,0 +1,28 @@
+#education > h2{
+    margin-bottom: 60px;
+}
+
+#edu_layout{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+#edu_txt_layout > h3{
+    font-size: 1.65em;
+}
+
+#edu_txt_layout > p{
+    width: 85%;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+#edu_layout > img{
+    width: 23%;
+    padding: .75%;
+    margin: auto;
+    background-color: violet;
+    border-radius: 10%;
+}
