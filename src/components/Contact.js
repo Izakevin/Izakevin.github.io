@@ -6,7 +6,7 @@ import LinkedIn from './Logos/LinkedIn';
 
 function Contact(){
     return(
-        <div id ="contact_me">
+        <div id ="contact">
           <h2 className='section'>Contact Me</h2>
           
           <div id = "contact_buttons">

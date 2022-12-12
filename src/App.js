@@ -1,5 +1,5 @@
 import './App.css';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+// import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import Header from './components/Header.js';
 import Education from './components/Education.js';
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <AnchorLink href="#education"><button>Scroll to education</button></AnchorLink>
+      {/* <AnchorLink href="#education"><button>Scroll to education</button></AnchorLink> */}
 
       <Header/>
       <body>
