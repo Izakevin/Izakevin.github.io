@@ -28,3 +28,7 @@
 ul > button{
     font-size: 1.1em;
 }
+
+ul > a:link{
+    text-decoration: none;
+}
