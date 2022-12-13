@@ -1,9 +1,9 @@
 #about_me{
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
   
-  #about_me > p{
-    width: 55%;
-    margin: auto;
-    font-size: 1.3em;
-  }
+#about_me > p{
+  width: 70%;
+  margin: auto;
+  font-size: 1.3em;
+}

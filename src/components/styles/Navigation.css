@@ -5,20 +5,21 @@
 /*hr-top includes the logo and the Navagation bar*/
 #hr-top{
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-bottom: 40px;
     font-family: 'Silkscreen', cursive;
 }
 
 #hr-top > p{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 #Navagation{
     text-align: center;
     left: 50%;          /*pushes the nav to the right*/
     position: absolute; 
+    padding-top: 1%;
 }
 
 #Navagation > ul{
