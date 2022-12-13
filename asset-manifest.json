@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fd8768e.css",
-    "main.js": "/static/js/main.da4c5ac6.js",
+    "main.css": "/static/css/main.d2c9eb08.css",
+    "main.js": "/static/js/main.11ee5d2d.js",
     "static/js/787.9dc234aa.chunk.js": "/static/js/787.9dc234aa.chunk.js",
     "static/media/tandon_seal.webp": "/static/media/tandon_seal.cc67a38948e18252e993.webp",
     "index.html": "/index.html",
-    "main.3fd8768e.css.map": "/static/css/main.3fd8768e.css.map",
-    "main.da4c5ac6.js.map": "/static/js/main.da4c5ac6.js.map",
+    "main.d2c9eb08.css.map": "/static/css/main.d2c9eb08.css.map",
+    "main.11ee5d2d.js.map": "/static/js/main.11ee5d2d.js.map",
     "787.9dc234aa.chunk.js.map": "/static/js/787.9dc234aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fd8768e.css",
-    "static/js/main.da4c5ac6.js"
+    "static/css/main.d2c9eb08.css",
+    "static/js/main.11ee5d2d.js"
   ]
 }
