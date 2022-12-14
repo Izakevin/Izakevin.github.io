@@ -29,8 +29,7 @@ function Skills(){
             <li><Docker/></li>
             <li><MySQL/></li>
             <li><MondoDB/></li>
-        </ul>
-        
+        </ul>        
     </div>
     )
 }
