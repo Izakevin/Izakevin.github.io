@@ -3,11 +3,9 @@ import './styles/Header.css';
 import Navigation from './Navigation';
 import GithubNt from './Logos/GithubNt';
 
-function Header(Props){
+function Header(){
     return (
     <header>
-        {/* <p>{Props.test}</p>      how to use props*/}
-        {/* <p>{Props.item}</p> */}
         <Navigation/>
 
         <div id="hr-info">

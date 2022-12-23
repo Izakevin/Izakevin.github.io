@@ -7,13 +7,11 @@ import Skills from './components/Skills.js';
 import Contact from './components/Contact';
 import AboutMe from './components/About_Me';
 import Projects from './components/Projects';
-// import DrawerAppBar from './components/DrawerAppBar';
 
 function App() {
 
   return (
     <div>
-      {/* <DrawerAppBar/> */}
       <div id="app_header">
         <Header/>
       </div>

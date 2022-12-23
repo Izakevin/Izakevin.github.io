@@ -12,22 +12,18 @@
 }
 
 #hr-top > p{
-    font-size: 2em;
+    font-size: 3em;
+    margin: auto;
 }
 
 #Navagation{
     text-align: center;
-    left: 50%;          /*pushes the nav to the right*/
-    position: absolute; 
     padding-top: 1%;
+    width: 70%;
 }
 
 #Navagation > ul{
     display: inline-block;
-}
-
-ul > button{
-    font-size: 1.1em;
 }
 
 ul > a:link{

@@ -7,7 +7,7 @@ function Navigation(Props){
 
     return(
     <div id="hr-top">
-        <p>Kevin Iza Software Developer</p>
+        <p>Kevin Iza</p>
 
         <nav id='Navagation'>
             <ul><AnchorLink href="#about_me"><Btn1 name= "About Me"/></AnchorLink></ul>
