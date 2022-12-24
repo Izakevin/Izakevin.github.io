@@ -1,5 +1,7 @@
 import './styles/Projects.css'
 
+// import MuiCard from "./MuiCard"
+
 function Projects(){
     return (
         <div id="projects">
@@ -25,6 +27,8 @@ function Projects(){
             <p>The Airline Ticket Database project was a collaborative work with 2 other group members. The goal of the project was to create a database and frontend website to track customer profiles, tickets sold and available, flight information, airports, and employee profiles.</p>
             <p>My contribution to this project was working with a team to create a schema for the database we wanted to create and code the SQL queries to make the tables required with the help of the schema. I also worked on the website to display the necessary information on the screen and allow for inputs into the system.</p>
           </div>
+
+          {/* <MuiCard/> */}
 
         </div>
     )

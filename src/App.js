@@ -1,5 +1,4 @@
 import './App.css';
-// import Button from '@mui/material/Button';
 
 import Header from './components/Header.js';
 import Education from './components/Education.js';
