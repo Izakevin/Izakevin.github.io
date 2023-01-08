@@ -4,7 +4,7 @@ import {Card, CardContent, CardMedia, Typography, CardActionArea} from '@mui/mat
 
 function MuiProjects(props){
     return (
-        <Card sx={{ mx: 'auto', width: 1/2, marginBottom: 5, borderColor: 'black' }}>
+        <Card sx={{ mx: 'auto', width: 1/2, marginBottom: 5 }}>
             <CardActionArea target="_blank" href={props.link} >
                 <CardMedia
                     component="img"

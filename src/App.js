@@ -8,7 +8,7 @@ import AboutMe from './components/About_Me';
 import Projects from './components/Projects';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-// import CssBaseline from '@mui/material/CssBaseline';
+import CssBaseline from '@mui/material/CssBaseline';
 
 const theme = createTheme({
     palette: {
@@ -34,13 +34,13 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
     <div>
-      {/* <CssBaseline /> */}
+      <CssBaseline />
 
       <div id="app_header">
         <Header/>
       </div>
       <div id="app_body">
-
+        
         <AboutMe/>
 
         <Education/>
@@ -50,7 +50,6 @@ function App() {
         <Skills/>
 
         <Contact/>
-        
       </div>
 
       <div id="app_footer">
