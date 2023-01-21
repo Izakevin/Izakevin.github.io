@@ -1,22 +1,23 @@
 #skills > ul{
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    grid-auto-rows: auto;
+    height: auto;
+    list-style: none;
     width: 60%;
     margin: auto;
 }
 
 #skills > ul > li{
-    width: 10%;
-    height: 10%;
-    padding: 5%;
+    height: 75px;
+    width: 75px;
     transition: all 0.3s ease-in-out;
-    margin: auto;
 }
 
 #skills > ul > li:hover{
     transform: scale(1.5);
     background-color: #424242;
     border-radius: 25%;
-    padding: 2.5%;
+    padding: 10px;
 }
