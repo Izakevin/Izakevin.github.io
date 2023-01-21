@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.923e9711.css",
+    "main.js": "/static/js/main.3d9dd968.js",
+    "static/js/787.9dc234aa.chunk.js": "/static/js/787.9dc234aa.chunk.js",
+    "static/media/tandon_seal.webp": "/static/media/tandon_seal.cc67a38948e18252e993.webp",
+    "index.html": "/index.html",
+    "main.923e9711.css.map": "/static/css/main.923e9711.css.map",
+    "main.3d9dd968.js.map": "/static/js/main.3d9dd968.js.map",
+    "787.9dc234aa.chunk.js.map": "/static/js/787.9dc234aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.923e9711.css",
+    "static/js/main.3d9dd968.js"
+  ]
+}
