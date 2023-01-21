@@ -10,11 +10,11 @@ function Navigation(Props){
         <p>Kevin Iza</p>
 
         <nav id='Navagation'>
-            <ul><AnchorLink href="#about_me"><Btn1 name= "About Me"/></AnchorLink></ul>
-            <ul><AnchorLink href="#education"><Btn1 name= "Education"/></AnchorLink></ul>
-            <ul><AnchorLink href="#projects"><Btn1 name= "Projects"/></AnchorLink></ul>
-            <ul><AnchorLink href="#skills"><Btn1 name= "Skills"/></AnchorLink></ul>
             <ul><AnchorLink href="#contact"><Btn1 name= "Contact"/></AnchorLink></ul>
+            <ul><AnchorLink href="#skills"><Btn1 name= "Skills"/></AnchorLink></ul>
+            <ul><AnchorLink href="#projects"><Btn1 name= "Projects"/></AnchorLink></ul>
+            <ul><AnchorLink href="#education"><Btn1 name= "Education"/></AnchorLink></ul>
+            <ul><AnchorLink href="#about_me"><Btn1 name= "About Me"/></AnchorLink></ul>
         </nav>
     </div>
     )
