@@ -1,18 +1,17 @@
 import {Card, CardContent, CardMedia, Typography, CardActionArea} from '@mui/material';
 
+import Carousel from './Carousel.js';
+
 
 
 function MuiProjects(props){
     return (
         <Card sx={{ mx: 'auto', width: 1/2, marginBottom: 5 }}>
+            <Carousel
+                images = {props.images}
+                alt = {props.alt}
+            />
             <CardActionArea target="_blank" href={props.link} >
-                <CardMedia
-                    component="img"
-                    height="200"
-                    image={props.image}
-                    alt= {props.alt}
-                    sx={{ padding: "1em 1em 0 1em", objectFit: "contain" }}
-                />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         {props.title}
