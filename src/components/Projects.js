@@ -1,5 +1,6 @@
 import './styles/Projects.css'
 import logo from "../logo192.png";
+// import SwipeableTextMobileStepper from './Swipeable_Views.js';
 
 import MuiProjects from './MC_projects';
 
@@ -7,6 +8,8 @@ function Projects(){
     return (
         <div id="projects">
           <h2 className='section'>My Projects</h2>
+
+          {/* <SwipeableTextMobileStepper></SwipeableTextMobileStepper> */}
 
           <MuiProjects
             link = "https://github.com/Izakevin/CSUY3113/tree/master/P6"
