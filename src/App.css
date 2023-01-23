@@ -9,11 +9,13 @@
 #app_body{
   width: 80%;
   margin: auto;
+  display: grid;
+  gap: 25px;
 }
 
 h2{
   width: 80%;
   margin: auto;
   font-size: 2em;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }

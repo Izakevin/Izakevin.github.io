@@ -1,8 +1,6 @@
-import {Card, CardContent, CardMedia, Typography, CardActionArea} from '@mui/material';
+import {Card, CardContent, Typography, CardActionArea} from '@mui/material';
 
 import Carousel from './Carousel.js';
-
-
 
 function MuiProjects(props){
     return (
@@ -16,11 +14,12 @@ function MuiProjects(props){
                     <Typography gutterBottom variant="h5" component="div">
                         {props.title}
                     </Typography>
-
-                    <Typography gutterBottom variant="h6" component="div">
-                        {props.coding_txt}
-                    </Typography>
-
+                    
+                    <div>
+                        <Typography gutterBottom variant="h6" component="div">
+                            {props.coding_txt}
+                        </Typography>
+                    </div>
                     <Typography variant="body2">
                         {props.description}
                     </Typography>
