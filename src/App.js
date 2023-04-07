@@ -33,30 +33,30 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-    <div>
-      <CssBaseline />
+      <>
+        <CssBaseline />
 
-      <div id="app_header">
-        <Header/>
-      </div>
-      <div id="app_body">
-        
-        <AboutMe/>
+        <div id="app_header">
+          <Header/>
+        </div>
+        <div id="app_body">
+          
+          <AboutMe/>
 
-        <Education/>
+          <Education/>
 
-        <Projects/>
+          <Projects/>
 
-        <Skills/>
+          <Skills/>
 
-        <Contact/>
-      </div>
+          <Contact/>
+        </div>
 
-      <div id="app_footer">
-        
-      </div>
+        <div id="app_footer">
+          
+        </div>
 
-    </div>
+      </>
     </ThemeProvider>
   );
 }

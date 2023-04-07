@@ -21,3 +21,11 @@
     border-radius: 25%;
     padding: 10px;
 }
+
+@media (max-width: 800px){
+    #skills > ul{
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        padding: 0px;
+    }
+}

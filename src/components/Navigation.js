@@ -9,7 +9,7 @@ function Navigation(Props){
     <div id="hr-top">
         <p>Kevin Iza</p>
 
-        <nav id='Navagation'>
+        <nav id='Navigation'>
             <ul><AnchorLink href="#contact"><Btn1 name= "Contact"/></AnchorLink></ul>
             <ul><AnchorLink href="#skills"><Btn1 name= "Skills"/></AnchorLink></ul>
             <ul><AnchorLink href="#projects"><Btn1 name= "Projects"/></AnchorLink></ul>
