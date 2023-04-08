@@ -3,8 +3,8 @@
 }
 
 .carousel > img{
-    width: 100%;
-    height: auto;
+    width: 50%;
+    margin: auto;
 }
 
 .carousel > button{

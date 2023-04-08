@@ -4,7 +4,7 @@ import Carousel from './Carousel.js';
 
 function MuiProjects(props){
     return (
-        <Card sx={{ mx: 'auto', width: 1/2, marginBottom: 5 }}>
+        <Card>
             <Carousel
                 images = {props.images}
                 alt = {props.alt}

@@ -1,4 +1,15 @@
-#proj{
-    width:70%;
+#projects{
+    font-size: 2vw;
+}
+
+.MuiPaper-root{
+    width: 75%;
     margin: auto;
+    margin-bottom: 5%;
+    font-size: 3vw;
+}
+
+.img{
+    height: 50%;
+    width: auto;
 }
