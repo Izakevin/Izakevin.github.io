@@ -17,6 +17,7 @@ header{
 #hr-info > h1{
     text-align: center;
     font-size: 4em;
+    font-size: 4vw;
 }
 
 #hr-info > h1 > #HW {
@@ -25,6 +26,7 @@ header{
 
 #hr-info > p{
     font-size: 2em;
+    font-size: 3vw;
     width: 60%;
     margin:auto;
 }
@@ -41,6 +43,7 @@ header{
     width: 40%;
     padding: 3%;
     font-size: 1.3em;
+    font-size: 1.5vw;
 }
 
 /* Style Github button */
@@ -115,8 +118,3 @@ header{
     100% { background-position: 0 0; }
 }
 
-@media (max-width: 1100px){
-    #navigation{
-      display: none;
-    }
-  }

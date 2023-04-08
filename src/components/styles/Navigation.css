@@ -11,6 +11,7 @@
 
 #hr-top > p{
     font-size: 3em;
+    font-size: 4vw;
     margin: auto;
 }
 
@@ -18,10 +19,9 @@
     width: 70%;
     padding-top: 1%;
     padding-right: 5%;
+
     font-size: 1.15em;
-    @media (max-width: 1100px){
-        display: none;
-    }
+    font-size: 1.15vw;
 }
 
 #Navigation > ul{
@@ -32,12 +32,22 @@ ul > a:link{
     text-decoration: none;
 }
 
-@media (max-width: 1100px){
+@media (max-width: 900px){
+
+    /* #hr-top{
+        display: flex;
+        margin-bottom: 15%;
+    } */
+
     #Navigation{
       display: none;
       color: red;
       visibility: hidden;
       background-color: red;
+    }
 
+    #hr-top > p{
+        margin: auto;
+        margin-left: 5%;
     }
 }
