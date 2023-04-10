@@ -3,6 +3,7 @@ header{
     background-color: #0F3D3E;
     color: white;
     height: 100vh;
+    
 }
 
 /*hr-info includes the welcome message, current status, and buttons*/
@@ -21,6 +22,7 @@ header{
 }
 
 #hr-info > h1 > #HW {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
     color: #39ff14;
 }
 
@@ -117,4 +119,16 @@ header{
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+#TemporaryDrawer{
+    display: none;
+
+}
+
+/* @media (max-width: 900px){
+    #TemporaryDrawer{
+        display: inline;
+
+    }
+} */
 
